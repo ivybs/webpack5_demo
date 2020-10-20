@@ -1,5 +1,4 @@
 /*
-
 index.js：webpack入口起点文件
 1.运行指令：
     开发环境： webpack ./src/index.js -o ./dist/main.js --mode=development
@@ -10,11 +9,10 @@ index.js：webpack入口起点文件
     （1）webpack能处理js/json,不能处理css/img等其他资源
     （2）生产环境比开发环境多一个压缩Js代码
     （3）生产环境和开发环境将es6模块编译成浏览器能识别的模块化
-
 */
 
 import data from './data';
-import './index.css'
+import './index.less'
 
 console.log(data);
 
